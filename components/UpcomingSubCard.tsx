@@ -2,7 +2,7 @@ import { formatCurrency } from '@/lib/utils'
 import React from 'react'
 import { Image, Text, View } from 'react-native'
 
-export default function UpcomingSubCard({ data: { name, price, currency, daysLeft, icon } }: UpcomingSubscriptionCardProps) {
+export default function UpcomingSubCard({ name, price, currency, daysLeft, icon     }: UpcomingSubscriptionCardProps) {
     return (
         <View className='upcoming-card'>
             <View className='upcoming-row'>
